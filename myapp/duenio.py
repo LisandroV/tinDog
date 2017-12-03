@@ -6,16 +6,22 @@ class Duenio(object):
         self.listMascotas=listMascotas
         self.contrasenia=contrasenia
 
-		
+
 	def getUsername(self):
 		return self.userName
+<<<<<<< 7065c21ba04269e4d705d4a3c177b2c0e23008f8:myapp/clases/duenio.py
 		
 		
+=======
+
+
+>>>>>>> Agrege una clase que permite persistencia:myapp/duenio.py
 	def getPassword(self):
 		return self.contrasenia
 
 	def getMacotas(self):
 		return self.listMacotas
+<<<<<<< 7065c21ba04269e4d705d4a3c177b2c0e23008f8:myapp/clases/duenio.py
 		
 	def getNombre(self):
 		return self.nombre
@@ -34,6 +40,11 @@ class Duenio(object):
 		
 	
 		
+=======
+
+
+
+>>>>>>> Agrege una clase que permite persistencia:myapp/duenio.py
 
 class Mascota(object):
     def __init__(self,nombre, raza,edad,sexo,disponible):
@@ -41,17 +52,23 @@ class Mascota(object):
         self.raza=raza
         self.edad=edad
         self.sexo=sexo
+        self.disponible=disponible
 
-		
 	def getRaza(self):
 		return self.raza
+<<<<<<< 7065c21ba04269e4d705d4a3c177b2c0e23008f8:myapp/clases/duenio.py
 		
 		
+=======
+
+
+>>>>>>> Agrege una clase que permite persistencia:myapp/duenio.py
 	def getEdad(self):
 		return self.edad
 
 	def getNombre(self):
 		return self.nombre
+<<<<<<< 7065c21ba04269e4d705d4a3c177b2c0e23008f8:myapp/clases/duenio.py
 		
 	def getSexo(self):
 		return self.sexo
@@ -79,3 +96,5 @@ class Mascota(object):
 
 		
 		
+=======
+>>>>>>> Agrege una clase que permite persistencia:myapp/duenio.py
