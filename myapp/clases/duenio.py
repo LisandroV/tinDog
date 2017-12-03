@@ -8,15 +8,30 @@ class Duenio(object):
 
 		
 	def getUsername(self):
-		return userName
+		return self.userName
 		
 		
 	def getPassword(self):
-		return contrasenia
+		return self.contrasenia
 
 	def getMacotas(self):
-		return listMacotas
+		return self.listMacotas
+		
+	def getNombre(self):
+		return self.nombre
+		
+	def setUsername(self,user):
+		self.userName=user
+		
+	def setMascotas(self,mascotas):
+		self.mascotas=mascotas
 	
+	def setPassword(self, password):
+		self.contrasenia=password
+		
+	def setNombre(self, nombre):
+		self.nombre=nombre
+		
 	
 		
 
@@ -29,14 +44,35 @@ class Mascota(object):
 
 		
 	def getRaza(self):
-		return raza
+		return self.raza
 		
 		
 	def getEdad(self):
-		return edad
+		return self.edad
 
 	def getNombre(self):
-		return nombre
+		return self.nombre
+		
+	def getSexo(self):
+		return self.sexo
+		
+	def getDisponible(self):
+		return self.disponible
+		
+	def setRaza(self,raza):
+		self.raza=raza
+		
+	def setSexo(self,sexo):
+		self.sexo=sexo
+	
+	def setEdad(self,edad):
+		self.edad=edad
+	
+	def setdisponible(self,disponible):
+		self.disponible=disponible
+	
+	def setNombre(self, nombre):
+		self.nombre=nombre		
 		
 	
 	
