@@ -2,59 +2,72 @@
 <html lang="en">
 
 <head>
-    <title>Python Flask Bucket List App</title>
+    <title>tinDog</title>
 
 
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
-
+<meta charset="utf-8">
 
 </head>
 
 <body>
+  <body background="fondoPerro.jpg">
+    <header style="background: rgba(75,100,104,.9)">
+      <form class="navbar-form navbar-left" role="search">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-1">
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </div>
+            <div class="col-lg-3">
+              <input class="form-control" placeholder="Name" type="text">
+            </div>
+            <div class="col-lg-3">
+              <input class="form-control" placeholder="Password" type="text">
+            </div>
+          </div>
+        </div>
+      </form>
+    </header>
+    <DIV STYLE="position:absolute; top:25px; left:900px; visibility:visible z-index:1">
+    <IMG height="200" SRC="logo.png" width="250">
+    </div>
 
     <div class="container">
-        <div class="header">
-            <nav>
-                <ul class="nav nav-pills pull-right">
-                    <li role="presentation" class="active"><a href="#">Home</a>
-                    </li>
-                    <li role="presentation"><a href="#">Sign In</a>
-                    </li>
-                    <li role="presentation"><a href="showSignUp">Sign Up</a>
-                    </li>
-                </ul>
-            </nav>
-            <h3 class="text-muted">{{ message }}</h3>
-        </div>
-
-        <div class="jumbotron">
-            <h1>Bucket List App</h1>
+        <div class="jumbotron" style="background-color: rgba(255, 255, 255, 0.5)">
+            <h1>TinDog</h1>
             <p class="lead"></p>
-            <p><a class="btn btn-lg btn-success" href="showSignUp" role="button">Sign up today</a>
+            <p><a class="btn btn-lg btn-success" href="showSignUp" role="button">Registrate ahora!</a><br>
             </p>
         </div>
 
         <div class="row marketing">
-          <div class="col-lg-6">
+          <div class="col-lg-4">
+            <h4>Citas</h4>
+            <p>Es momento de conseguirle a tu fiel amigo una pareja a su nivel...y a su gusto</p>
+          </div>
+
+          <div class="col-lg-4">
+            <h4>Mision</h4>
+            <p>El beneficio de mascotas y dueños para poderse relacionar de una manera mas eficaz</p>
+          </div>
+
+
+                    <div class="col-lg-4">
+                      <h4>Comienza ahora</h4>
+                      <p>Unete a esta gran comunidad dedicada a la reproduccion responsable de nuestras mascotass</p>
+                    </div>
+
+          <!-- <div class="col-lg-6">
             {% for item in items %}
               <h4>{{ item.name }}</h4>
               <p>{{ item.age }}</p>
             {% endfor %}
-          </div>
+          </div> -->
 
 
-            <div class="col-lg-6">
-                <h4>Bucket List</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-                <h4>Bucket List</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-                <h4>Bucket List</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-            </div>
         </div>
 
         <footer class="footer">
